@@ -20,6 +20,8 @@ const obtenerUsuario01 = () => {
     }
 };
 
+console.log("Empty Export desde JS");
+
 console.log(lenguaje);
 console.log(listaEstadosEEUU());
 console.log(obtenerUsuario01());

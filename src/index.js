@@ -22,3 +22,6 @@ console.log(datos.listaEstadosEEUU())
 //exportacion mediante default Imports
 import obtenerUsuario from './defaultExport'
 console.log(obtenerUsuario());
+
+//exportacion mediante empty imports
+import './emptyExport'
