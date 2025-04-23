@@ -22,6 +22,9 @@ const obtenerUsuario01 = () => {
 
 console.log("Empty Export desde JS");
 
+const correo = 'Jhonatan@example.com';
+
 console.log(lenguaje);
 console.log(listaEstadosEEUU());
 console.log(obtenerUsuario01());
+console.log(correo);

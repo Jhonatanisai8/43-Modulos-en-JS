@@ -24,4 +24,6 @@ import obtenerUsuario from './defaultExport'
 console.log(obtenerUsuario());
 
 //exportacion mediante empty imports
+import { correo } from './emptyExport';
 import './emptyExport'
+console.log(correo)
