@@ -18,3 +18,7 @@ console.log(`Estoy aprendiendo ${le}`)*/
 import * as datos from './namedExports'
 console.log(datos.lenguaje)
 console.log(datos.listaEstadosEEUU())
+
+//exportacion mediante default Imports
+import obtenerUsuario from './defaultExport'
+console.log(obtenerUsuario());

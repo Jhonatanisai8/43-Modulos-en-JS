@@ -1,11 +1,3 @@
-'use strict';
-
-const listaEstadosEEUU = () => {
-    return ["New York", "New Yersey", "Florida", "California"]
-};
-
-const lenguaje = 'JavaScript';
-
 // export default () => {
 //     return {
 //         nombre: 'Carlitos',
@@ -18,8 +10,6 @@ const obtenerUsuario01 = () => {
         nombre: 'Juan',
         correo: 'Juan@example.com'
     }
-};
+}
 
-console.log(lenguaje);
-console.log(listaEstadosEEUU());
-console.log(obtenerUsuario01());
+export default obtenerUsuario01
